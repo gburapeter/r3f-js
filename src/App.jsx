@@ -11,7 +11,7 @@ function App() {
 	return (
 		<>
 			<model-viewer
-				src="./paneel.glb"
+				src="./Duck.glb"
 				ar
 				scale="100 100 100"
 				ar-scale="fixed"
@@ -20,6 +20,7 @@ function App() {
 				alt="A 3D model of an astronaut"
 				shadow-intensity="2"
 				skybox-height="2m"
+				skybox-image="./studio_country_hall_1k.jpg"
 				max-camera-orbit="auto 90deg auto"
 				xr-environment
 				id="pickMaterial"
