@@ -14,7 +14,14 @@ function App() {
 				skybox-height="2m"
 				max-camera-orbit="auto 90deg auto"
 				xr-environment
-			></model-viewer>
+			>
+				<button
+					slot="ar-button"
+					style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; "
+				>
+					👋 Activate AR
+				</button>
+			</model-viewer>
 		</>
 	);
 }
