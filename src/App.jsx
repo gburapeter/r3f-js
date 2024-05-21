@@ -21,6 +21,7 @@ function App() {
 				shadow-intensity="2"
 				skybox-height="2m"
 				skybox-image="./studio_country_hall_1k.jpg"
+				// environment-image="./studio_country_hall_1k.jpg"
 				max-camera-orbit="auto 90deg auto"
 				xr-environment
 				id="pickMaterial"
