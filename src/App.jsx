@@ -1,11 +1,19 @@
+import { useEffect } from "react";
 import "./App.css";
 
 function App() {
+	useEffect(() => {
+		const modelViewerColor = document.querySelector(
+			"model-viewer#pickMaterial"
+		);
+		console.log(modelViewerColor);
+	}, []);
 	return (
 		<>
 			<model-viewer
 				src="./paneel.glb"
 				ar
+				scale="100 100 100"
 				ar-scale="fixed"
 				camera-controls
 				touch-action="pan-y"
@@ -14,6 +22,7 @@ function App() {
 				skybox-height="2m"
 				max-camera-orbit="auto 90deg auto"
 				xr-environment
+				id="pickMaterial"
 			>
 				<button
 					slot="ar-button"
