@@ -13,7 +13,7 @@ function App() {
 			<model-viewer
 				src="./paneel.glb"
 				ar
-				scale="100 100 100"
+				// scale="100 100 100"
 				ar-scale="fixed"
 				camera-controls
 				touch-action="pan-y"
