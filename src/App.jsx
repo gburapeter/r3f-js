@@ -16,10 +16,14 @@ function App() {
 				// scale="100 100 100"
 				ar-scale="fixed"
 				camera-controls
+				loading="eager"
+				auto-rotate
+				poster="./gers.png"
 				touch-action="pan-y"
 				alt="A 3D model of an astronaut"
 				shadow-intensity="2"
 				skybox-height="2m"
+				tone-mapping="neutral"
 				skybox-image="./studio_country_hall_1k.jpg"
 				// environment-image="./studio_country_hall_1k.jpg"
 				max-camera-orbit="auto 90deg auto"
