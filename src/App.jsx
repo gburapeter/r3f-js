@@ -11,7 +11,7 @@ function App() {
 	return (
 		<>
 			<model-viewer
-				src="./Duck.glb"
+				src="./paneel.glb"
 				ar
 				scale="100 100 100"
 				ar-scale="fixed"
