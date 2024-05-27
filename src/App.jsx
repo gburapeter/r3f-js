@@ -11,7 +11,7 @@ function App() {
 	return (
 		<>
 			<model-viewer
-				src="./Duck.glb"
+				src="https://github.com/KhronosGroup/glTF-Sample-Models/raw/main/2.0/Duck/glTF-Binary/Duck.glb"
 				ar
 				// scale="100 100 100"
 				ar-scale="fixed"
