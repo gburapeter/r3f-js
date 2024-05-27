@@ -11,7 +11,7 @@ function App() {
 	return (
 		<>
 			<model-viewer
-				src="./paneel.glb"
+				src="./perfume_bottle_02.glb"
 				ar
 				// scale="100 100 100"
 				ar-scale="fixed"
