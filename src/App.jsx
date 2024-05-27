@@ -11,7 +11,7 @@ function App() {
 	return (
 		<>
 			<model-viewer
-				src="./minimilist_glass_door.glb"
+				src="./glass_door.glb"
 				ar
 				// scale="100 100 100"
 				ar-scale="fixed"
