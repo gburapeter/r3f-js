@@ -11,7 +11,7 @@ function App() {
 	return (
 		<>
 			<model-viewer
-				src="./glass_door.glb"
+				src="./Duck.glb"
 				ar
 				// scale="100 100 100"
 				ar-scale="fixed"
